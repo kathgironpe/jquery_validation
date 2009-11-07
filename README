@@ -18,11 +18,7 @@ HTML
 jQuery:
 
 $(document).ready( function(){
-  $(".validate_send_mail").validate();
-  $('a.send_to_more_friends').click(function() {
-    $('.validate_send_mail').addClass('block');
-    return false;
-  });
+  $("#formID").validate();
 
 });
 
