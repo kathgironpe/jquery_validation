@@ -16,7 +16,7 @@ HTML
 </form>
 
 jQuery:
-<code>
+
 $(document).ready( function(){
   $(".validate_send_mail").validate();
   $('a.send_to_more_friends').click(function() {
@@ -25,5 +25,4 @@ $(document).ready( function(){
   });
 
 });
-</code>
 
